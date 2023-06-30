@@ -1,0 +1,286 @@
+body{
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(10, 30, 51);
+  z-index: 1;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  margin-right: 11px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+.logo{
+  width: 80px;
+  height: 60px;
+}
+
+h1{
+  color: red ;
+  animation: huerotate 10s alternate infinite;
+}
+
+.home, .about, .skills, .interest, .contact, .project{
+  padding: 23px 15px;
+  font-size: 12px;
+  border-radius: 8px;
+  transition: background-color 0.15s;
+}
+.home:active{
+  background-color: rgb(50, 96, 146);
+}
+.about:active{
+  background-color: rgb(50, 96, 146);
+}
+.skills:active{
+  background-color: rgb(50, 96, 146);
+}
+.project:active{
+  background-color: rgb(50, 96, 146);
+}
+.interest:active{
+  background-color: rgb(50, 96, 146);
+}
+.contact:active{
+  background-color: rgb(50, 96, 146);
+}
+@keyframes huerotate {
+  0% {
+    filter: hue-rotate(279deg)
+  }
+  50% {
+    filter: hue-rotate(197deg);
+  }
+  100% {
+    filter: hue-rotate( 12deg);
+  }
+}
+
+@media (max-width: 767px) {
+
+  .navbar-menu {
+    display: none;;
+  }
+
+  .navbar-toggle {
+    display: block;
+    margin-right: 30px;
+  }
+
+  .navbar-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 5px);
+  }
+
+  .navbar-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -5px);
+  }
+
+  .navbar-toggle span {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo{
+    width: 50px;
+    height: 40px;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 150px;
+    background-color: rgb(10, 30, 51);
+    align-items: center;
+  }
+  a{
+    transition: background-color 0.15s, padding 0.25s;
+  }
+
+  .home{
+    padding: 5px 58px;
+    border-radius: 0;
+  }
+  .about{
+    padding: 5px 58px;
+    border-radius: 0;
+  }
+  .skills{
+    padding: 5px 61px;
+    border-radius: 0;
+  }
+  .project{
+    padding: 5px 56px;
+    border-radius: 0;
+  }
+  .interest{
+    padding: 5px 54px;
+    border-radius: 0;
+  }
+  .contact{
+    padding: 5px 53px;
+    border-radius: 0;
+  }
+  .home:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .about:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .skills:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .project:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .interest:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .contact:active{
+    background-color: rgb(50, 96, 146);
+  }
+
+  .navbar-menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar{
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .navbar{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    width: 50px;
+    height: 40px;
+  }
+
+  .logoName{
+    font-size: 25px;
+  }
+
+  .home{
+    padding: 5px 8px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about{
+    padding: 5px 8px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills{
+    padding: 5px 8px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project{
+    padding: 19px 8px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interest{
+    padding: 5px 4px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact{
+    padding: 6px 3px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .about:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .skills:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .project:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .interest:active{
+    background-color: rgb(50, 96, 146);
+  }
+  .contact:active{
+    background-color: rgb(50, 96, 146);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home, .about, .skills, .project, .interest, .contact{
+    font-size: 17px;
+  }
+}

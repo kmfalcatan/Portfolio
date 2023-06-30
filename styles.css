@@ -1,0 +1,587 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url(picture/CircuitBoard.svg);
+}
+/*______Home_______*/
+.container{
+  width: 100%;
+  height: 817px;
+  margin-top: -60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContainer{
+  text-align: center;
+  padding: 10px;
+  color: rgb(0, 255, 255);
+}
+
+.picture{
+  margin-top: 40px;
+  position: relative;
+}
+
+.bgPicture{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(0, 255, 255);
+  border-radius: 100%;
+  margin-top: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
+}
+
+.leftContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*______about_______*/
+.container1{
+  width: 100%;
+  height: 817px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContainer1{
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.name1{
+  padding-bottom: 20px;
+}
+
+.paragraph1{
+  color: rgb(0, 255, 255);
+}
+
+.picture1{
+  width: 180px;
+  margin-top: 30px;
+  position: relative;
+  padding-left: 70px;
+}
+
+.bgPicture1{
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  background-color: rgb(0, 255, 255);
+  border-radius: 100%;
+  margin-left: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
+}
+
+.leftContainer1{
+  padding-right: 60px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+/*________Skills________*/
+.container2{
+  width: 100%;
+  height: 1617px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainTitle{
+  padding-top: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*_____Front-end______*/
+.frontEnd{
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 255, 255);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+  margin-bottom: 20px;
+}
+
+.skillsName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+.skillsIcon{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.html, .css, .js{
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.iconName{
+  width: 100%px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+
+.name2{
+  height: 100%;
+  width: 56px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.description2{
+  width: 100%;
+  height: 100%;
+}
+
+.descrip{
+  padding: 5px;
+  color: rgb(0, 255, 255);
+  font-size: 18px;
+  text-align: center;
+}
+
+.name2html, .name2css, .name2js{
+  color: rgb(0, 255, 255);
+}
+
+.htmlIcon{
+  width: 60px;
+  margin-left: -1px;
+}
+
+.cssIcon{
+  width: 60px;
+  margin-left: -1px;
+}
+
+.jsIcon{
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 1px;
+}
+
+/*_____OOP_______*/
+.oop{
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 255, 255);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+  margin-bottom: 20px;
+}
+
+.skillsName1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+.skillsIcon1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.java{
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.name2java{
+  color: rgb(0, 255, 255);
+}
+
+.iconName1{
+  width: 100%px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.javaIcon{
+  width: 80px;
+  margin-top: -10px;
+  margin-left: -11px;
+}
+
+/*________frame work_____________*/
+.frameWork{
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 255, 255);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+  margin-bottom: 20px;
+}
+
+.skillsName2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+.skillsIcon2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vbnet{
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.iconName2{
+  width: 100%px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.name2vbnet{
+  color: rgb(0, 255, 255);
+}
+
+.vbnetIcon{
+  width: 60px;
+}
+
+/*____data base______*/
+.dataBase{
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 255, 255);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+  margin-bottom: 20px;
+}
+
+.skillsName3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+.skillsIcon3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.access, .mySql{
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+
+.name3{
+  color: rgb(0, 255, 255);
+  width: 100px;
+  margin: 10px;
+}
+
+.name2mysql{
+  padding-left: 15px;
+}
+
+.accessIcon{
+  width: 97px;
+  margin-left: -18px;
+}
+
+.mySqlIcon{
+  width: 167px;
+  margin-left: -54px;
+  margin-top: -9px;
+}
+
+/*______Others______*/
+.others{
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 255, 255);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+  margin-bottom: 20px;
+}
+
+.skillsName4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+.skillsIcon4{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.c, .python{
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+
+.name4{
+  margin: 25px;
+  color: rgb(0, 255, 255);
+}
+
+.cIcon{
+  width: 50px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.pythonIcon{
+  width: 60px;
+}
+
+.skillsName, .skillsName1, .skillsName2, .skillsName3, .skillsName4{
+  border-bottom-color: rgb(0, 255, 255);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.iconName, .iconName1, .iconName2{
+  border-bottom-color: rgb(0, 255, 255);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+/*_______project__________*/
+.container3{
+  width: 100%;
+  height: 880px;
+}
+
+.subContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.projectContainer{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.733);
+  border: 1px solid rgb(0, 255, 255);
+}
+
+.image{
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid rgb(0, 255, 255);
+}
+
+/*_____interest_________*/
+.container4{
+  width: 100%;
+  height: 880px;
+}
+
+.interestContainer{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.733);
+  border: 1px solid rgb(0, 255, 255);
+}
+
+/*_______Contact_________*/
+.container5{
+  width: 100%;
+  height: 880px;
+}
+
+.contactContainer{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(10, 30, 51);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.733);
+  border: 1px solid rgb(0, 255, 255);
+}
+
+/*____email____*/
+.email{
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.emailAccount{
+  width: 100%;
+  height: 60px;
+}
+
+.or{
+  width: 100%;
+  height: 20px;
+  margin-top: 40px;
+}
+
+.iconContact{
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fb, .tiktok, .discord, .instagram, .telegram{
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb{
+  margin-left: 5px;
+}
+
+img{
+  transition: width 0.15s;
+}
+
+.telegram{
+  margin-right: 5px;
+}
+
+.fbIcon{
+  width: 48px;
+  margin-top: 4px;
+}
+.fbIcon:hover{
+  width: 55px;
+}
+
+.tiktokIcon{
+  width: 60px;
+  margin-top: 1px;
+}
+
+.tiktokIcon:hover{
+  width: 65px;
+}
+
+.discordIcon{
+  width: 50px;
+}
+
+.discordIcon:hover{
+  width: 55px;
+}
+
+.instagramIcon{
+  width: 51px;
+}
+
+.instagramIcon:hover{
+  width: 56px;
+}
+
+.telegramIcon{
+  width: 53px;
+}
+
+.telegramIcon:hover{
+  width: 58px;
+}
+
+.or{
+  color: rgb(87, 87, 87);
+}
+
+.emailAccount{
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.email{
+  font-size: 20px;
+  padding-left: 10px;
+  color: rgb(87, 87, 87);
+}
+

@@ -1,0 +1,118 @@
+@media screen and (min-width: 1024px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 720px;
+  }
+  .description{
+    text-align: left;
+    font-size: clamp(0.75rem, -0.1875rem + 3vw, 1.5rem);
+  }
+  .rightContainer{
+    padding-top: 130px;
+  }
+  .leftContainer{
+    width: 400px;
+    padding-top: 100px;
+  }
+  .bgPicture{
+    width: 300px;
+    height: 300px;
+  }
+  .picture{
+    width: 300px;
+  }
+  .container1{
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    justify-content: space-between;
+  }
+  .leftContainer1{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .bgPicture1{
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+  }
+  .picture1{
+    width: 230px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .paragraph1{
+    width: 600px;
+  }
+  .rightContainer1, .leftContainer1{
+    padding-top: 130px;
+  }
+  .skillsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 10px;
+  }
+  .others{
+    margin-left: 315px;
+  }
+  .mainTitle{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1145px) {
+  .container2{
+    height: 770px;
+  }
+  .skillsContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    gap: 20px;
+  }
+  .others{
+    margin: 0;
+  }
+  .mainTitle{
+    padding-top: 150px;
+  }
+  .bgPicture{
+    width: 400px;
+    height: 400px;
+  }
+  .leftContainer{
+    width: 500px;
+  }
+  .picture{
+    width: 400px;
+  }
+  .bgPicture1{
+    width: 400px;
+    height: 400px;
+  }
+  .leftContainer1{
+    width: 400px;
+  }
+  .picture1{
+    width: 270px;
+  }
+  .or{
+    font-size: 15.8px;
+  }
+  .container2{
+  }
+  .container3{
+    height: 770px;
+  }
+  .container4{
+    height: 770px;
+  }
+  .container5{
+    height: 770px;
+  }
+}

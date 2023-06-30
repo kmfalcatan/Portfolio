@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 540px;
+  }
+  .description{
+    text-align: left;
+    font-size: clamp(0.75rem, -0.1875rem + 3vw, 1.5rem);
+  }
+  .paragraph{
+    width: 450px;
+  }
+  .rightContainer{
+    padding-top: 130px;
+  }
+  .leftContainer{
+    height: 559px;
+    width: 280px;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container1{
+    display: flex;
+    flex-direction: row;
+    height: 480px;
+  }
+  .container2{
+    height: 800px;
+  }
+  .skillsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    column-gap: 10px;
+  }
+  .dataBase, .others{
+    margin-left: 100px;
+  }
+  .or{
+    font-size: 15.8px;
+  }
+  .leftContainer1{
+    padding-top: 60px;
+  }
+  .rightContainer1{
+    padding-top: 120px;
+  }
+}
